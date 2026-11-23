@@ -1,0 +1,10 @@
+Options -Indexes
+
+<FilesMatch "^composer\.(json|lock)$">
+  Require all denied
+</FilesMatch>
+
+DirectoryIndex html/index.html
+
+RewriteEngine On
+RewriteRule ^(index|apropos|contact|faq|formations|galerie|temoignages|offline)\.html$ html/$1.html [END]

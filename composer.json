@@ -1,0 +1,11 @@
+{
+  "require": {
+    "php": ">=8.0",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "ext-openssl": "*",
+    "ext-pdo_mysql": "*",
+    "minishlink/web-push": "^8.0"
+  }
+}
